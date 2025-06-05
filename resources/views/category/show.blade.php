@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blog</title>
+    <title>mostrar post</title>
 </head>
 <body>
 
-    <h1>este es mi blog</h1>
+    <p>mostrar el post: {{ $id }}</p>
     
 </body>
 </html>
