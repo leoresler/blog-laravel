@@ -1,14 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Categorias</title>
-</head>
-<body>
+<x-app-layout title="Categorias">
 
-    <p>listado de categorias</p>
-    
-</body>
-</html>
+    <h2>Categorias</h2>
+    <br>
+
+    <a href="/category/create">Nuevo post</a>
+    <br>
+    <br>
+
+    <ul>
+        @foreach ($posts as $post)
+            <li>
+                <a href="/category/show/{{ $post->id }}">{{ $post->title }}</a>
+            </li>
+        @endforeach
+    </ul>
+        
+
+</x-app-layout>

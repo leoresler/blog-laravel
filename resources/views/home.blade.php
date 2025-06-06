@@ -1,4 +1,4 @@
-<x-app-layout>
+<x-app-layout title="Blog">
 
     <h1>
         pagina principal
@@ -13,7 +13,7 @@
 
             Contenido de la alerta
         </x-alert2>
-        <p>hola mundo</p>
+        <p>otros contenidos</p>
     </div>
 
 

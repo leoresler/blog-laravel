@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     {{-- @vite('resources/css/app.css') --}}
-    <title>Blog</title>
+    <title>{{ $title }}</title>
 </head>
 <body>
     <header></header>
